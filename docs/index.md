@@ -1,6 +1,4 @@
-# Home
-
-Introducción básica a R
+# Introducción básica a R
 
 ## Material
 
