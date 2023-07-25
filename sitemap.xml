@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <url>
+         <loc>https://github.com/fralfaro/DS-R-Course/</loc>
+         <lastmod>2023-07-25</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://github.com/fralfaro/DS-R-Course/__init__/</loc>
+         <lastmod>2023-07-25</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://github.com/fralfaro/DS-R-Course/basic/</loc>
+         <lastmod>2023-07-25</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://github.com/fralfaro/DS-R-Course/dplyr/</loc>
+         <lastmod>2023-07-25</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://github.com/fralfaro/DS-R-Course/ggplot2/</loc>
+         <lastmod>2023-07-25</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://github.com/fralfaro/DS-R-Course/intro/</loc>
+         <lastmod>2023-07-25</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+</urlset>
