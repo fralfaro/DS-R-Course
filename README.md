@@ -176,9 +176,9 @@ Cambiar `authors` por su nombre y correo personal.
 
 El material está disponible en el siguiente [repositorio](https://github.com/fralfaro/DS-R-Course), para obtener el código de fuente basta con que ejecutes el siguiente comando:
 
-```
-https://github.com/fralfaro/DS-R-Course
-```
+
+> `https://github.com/fralfaro/DS-R-Course`
+
 
 ## Contenidos temáticos
 
@@ -220,15 +220,16 @@ los datasets y las imágenes de su carpeta.
 
 donde `<ID_IMAGE>` corresponde al id de su imagen a compartir desde Google Drive.
 
-2. En Jupyter notebook, para leer un dataframe con `pandas`, se utiliza la siguiente sequencia:
+2. En Jupyter notebook, para leer un dataframe con `dplyr` y `readr`, se utiliza la siguiente sequencia:
 
 ```python
-import pandas as pd
+library(dplyr)
+library(readr)
 
-url='<URL_DATASET>'
-url='https://drive.google.com/uc?id=' + url.split('/')[-2]
+id <- "<ID_DATASET>"
+url <- sprintf("https://docs.google.com/uc?id=%s&export=download", id)
 
-df = pd.read_csv(url, sep="," )
+df <- read_csv(url)
 ```
 
-donde `<URL_DATASET>` corresponde a la URL de su dataset a compartir desde Google Drive.
+donde `<ID_DATASET>` corresponde al id de su dataset a compartir desde Google Drive.
